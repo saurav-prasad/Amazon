@@ -1,0 +1,99 @@
+.headerNav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    max-width: inherit;
+    background-color: #141921;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/* Logo */
+.logoImg {
+    object-fit: contain;
+    cursor: pointer;
+    margin: 0px 15px;
+    margin-top: 12px;
+    width: 90px;
+}
+
+/* Search Section */
+.headerSearchBox {
+    display: flex;
+    flex: 1;
+}
+
+.headerInput {
+    font-weight: 400;
+    font-size: 16px;
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+
+.inputSearchLogo {
+    background-color: #f9bd6b;
+    cursor: pointer;
+    padding: 5px;
+    height: 22px !important;
+}
+
+/* 4 links */
+.headerLinkSection {
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerLink {
+    text-decoration: none;
+}
+
+.headerLinkBox {
+    color: white;
+    margin: 0px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.topLink {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.bottomLink {
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+/* 4 link -> cart*/
+.headerLinkBoxCart {
+    color: white;
+    margin: 0px 8px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerCartBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.cartCount {
+    margin-top: 4px;
+    color: #ffa63d;
+    font-weight: 700;
+    font-size: 1.2rem;
+}

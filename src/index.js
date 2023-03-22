@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import reducer, { initialState } from './components/context/reducer';
+import { CartState } from './components/context/cartState';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <CartState reducer={reducer} initialState={initialState}>
+      <App />
+    </CartState>
   </React.StrictMode>
 );
 

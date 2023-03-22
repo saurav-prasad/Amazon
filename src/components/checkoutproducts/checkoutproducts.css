@@ -1,0 +1,41 @@
+.checkoutproductContianer {
+    display: flex;
+
+    margin: 15px 0;
+}
+.checkoutproductMainContianer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.checkoutproductImg {
+    object-fit: contain;
+    /* min-width: 20px; */
+    max-width: 150px;
+}
+
+.checkotproductInfo {
+    margin-left: 15px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+}
+.checkoutproductDesc{
+    font-size: 1.2rem;
+}
+.checkoutproductStock {
+    color: #007600;
+    margin: 5px 0;
+    font-size: 0.8rem;
+}
+
+.checkoutproductShipping {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.checkoutproductDelete{
+    margin-top: 15px;
+    cursor: pointer;
+}

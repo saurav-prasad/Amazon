@@ -1,0 +1,52 @@
+.subtotal {
+    width: 100%;
+}
+
+.subtotalParaBox {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.subtotalPara {
+    color: #007600;
+    font-size: 12px;
+}
+
+.subtotalParaSecond {
+    color: #565959;
+    font-size: 12px;
+}
+
+.subtotalCheck {
+    color: #007600;
+    width: 1rem !important;
+    margin-right: 4px;
+}
+
+.subtotalItem {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+.subtotalPrice{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.subtotalGiftBox{
+    margin-bottom: 3px;
+}
+.subtotalCheckBox{
+ width: 12px;
+}
+.subtotalGift{
+    font-size: 14px;
+    margin-left: 6px;
+
+}
+.subtotalBuyBtn {
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 10px;
+    min-height: 30px;
+}

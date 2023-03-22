@@ -1,0 +1,18 @@
+.home {
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+.homeImg {
+    width: 100%;
+    position: relative;
+    mask-image: linear-gradient(black, black,black, #00000038, transparent);
+    margin-bottom: -23%;
+    z-index: -1;
+}
+
+.homeProductSection {
+    overflow-x: scroll;
+    z-index: 1;
+    display: flex;
+}
